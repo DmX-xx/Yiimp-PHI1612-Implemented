@@ -146,9 +146,7 @@ YAAMP_ALGO g_algos[] =
 	{"zr5", zr5_hash, 1, 0, 0},
 
 	{"hive", hive_hash, 0x10000, 0, 0},
-	{"m7m", m7m_hash, 0x10000, 0, 0},
 	{"veltor", veltor_hash, 1, 0, 0},
-	{"velvet", velvet_hash, 0x10000, 0, 0},
 	{"argon2", argon2_hash, 0x10000, 0, sha256_hash_hex },
 
 	{"sha256t", sha256t_hash, 1, 0, 0}, // sha256 3x
